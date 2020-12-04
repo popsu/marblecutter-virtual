@@ -1,6 +1,7 @@
 version: '3'
 services:
   marblecutter:
+    network_mode: host
     build: .
     environment:
       - PYTHONPATH=.
